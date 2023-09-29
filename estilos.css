@@ -333,3 +333,92 @@ section {
     margin-right: -50px;
     margin-top: 10px;
 }
+
+@media (max-width:1024px) {
+    html {
+        font-size: 40%;
+    }
+
+    section {
+        padding: 10rem 3% 2rem;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 3rem 3%;
+        background-color: #e47a2e;
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    }
+
+    .navbar a {
+        font-size: 2rem;
+        margin-left: 10px;
+    }
+
+    .index .foto-container {
+        display: none;
+    }
+
+    .index {
+        margin-top: 130px;
+        padding: 0 3% 23rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .index .index-content {
+        max-width: 50rem;
+        margin-bottom: 100px;
+    }
+
+    .index-img img {
+        display: none;
+    }
+
+    .index-content h1 {
+        font-size: 7rem;
+    }
+    
+    .index-content p {
+        font-size: 2rem;
+    }
+
+    .integrantes,
+    .proyectos {
+        padding-bottom: 7rem;
+    }
+
+    .footer {
+        padding: 3rem;
+        overflow: hidden;
+    }
+
+    .datosdelequipo {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .integrantes h2 {
+        margin-bottom: 3rem; 
+        justify-content: center;
+        text-align: center;
+    }
+
+    .proyectos h2 {
+        text-align: center;
+    }
+
+    .proyectos .proyectos-container {
+        grid-template-columns: repeat(1, 1fr);
+        margin-right: 43px;
+    }
+
+    .footer-icontop img {
+        margin-right: 0.2px;
+    }
+
+}
