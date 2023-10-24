@@ -308,6 +308,184 @@ section {
     color: var(--main-color);
 }
 
+.avances-content h3 {
+    text-align: center;
+    line-height: 1.2;
+    font-size: 3rem;
+    color: #A965FF;
+}
+
+.avances-content p {
+    font-size: 2rem;
+    margin: 2rem 0 3rem;
+    text-align: center;
+}
+
+.avances .avances-box {
+    background: #EDEBEB;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 2rem;
+    text-align: center;
+    border: 0.4rem;
+}
+
+.avances2 .id-box {
+    background: #EDEBEB;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 2rem;
+    text-align: center;
+    border: 0.4rem;
+}
+
+.detalles h4 {
+    text-align: center;
+    line-height: 1.2;
+    font-size: 3rem;
+    color: var(--text-color);
+}
+
+.detalles1 h4 {
+    font-size: 3rem;
+}
+
+.detalles h2 {
+    text-align: center;
+    line-height: 1.2;
+    font-size: 4rem;
+    color: var(--text-color);
+    padding-bottom: 50px;
+}
+
+.detalles h2 span {
+    color: var(--main-color);
+}
+
+.detalles p {
+    font-size: 2.5rem;
+}
+
+.arbol h1 {
+    font-size: 4rem;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.arbol img {
+    align-items: center;
+    margin-left: 172px;
+}
+
+.arbol p {
+    font-size: 2.3rem;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.prototipado h1 {
+    color: white;
+}
+
+.prototipado h1 span {
+    color: #A965FF;
+}
+
+.prototipado {
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.48),rgba(0, 0, 0, 0.48)), url(img/computers.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid #fff;
+    padding: 12px 60px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    border: 2px solid #A965FF;
+    background: #A965FF;
+    transition: .5s;
+}
+
+.roles h1 {
+    color: #A965FF;
+}
+
+.integrante h3 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.integrante p {
+    text-align: center;
+    font: 1.6rem;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.integrante {
+    flex-basis: 31%;
+    background: #c89dffa4;
+    border-radius: 16px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+
+}
+
+.sitio span {
+    color: var(--main-color);
+}
+
+.sitio-box {
+    background: #fdfdfd;
+    padding: 50px;
+    margin: 50px auto;
+    border-radius: 2rem;
+    margin-top: 150px;
+    text-align: center;
+    border: 0.4rem;
+}
+
+.boton {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text-color);
+    border: 3px solid var(--text-color);
+    padding: 2rem 5.8rem;
+    font-size: 20px;
+    font-weight: 50px;
+    background: transparent;
+    align-items: center;
+    cursor: pointer;
+}
+
+.boton:hover {
+    border: 3px solid var(--text-color);
+    background: var(--main-color);
+    transition: .5s;
+}
+
 .footer {
     display: flex;
     justify-content: space-between;
@@ -355,7 +533,7 @@ section {
     }
 
     .navbar a {
-        font-size: 2rem;
+        font-size: 1.6rem;
         margin-left: 10px;
     }
 
@@ -415,6 +593,36 @@ section {
     .proyectos .proyectos-container {
         grid-template-columns: repeat(1, 1fr);
         margin-right: 43px;
+    }
+
+    .detalles img {
+        width: 100px;
+    }
+
+    .detalles1 img {
+        width: 250px;
+    }
+
+    .arbol img {
+        width: 300px;
+        align-items: center;
+        margin-right: 100px;
+    }
+
+    .hero-btn {
+        padding: 10px 50px;
+        font-size: 15px;
+    }
+
+    .row {
+        flex-direction: column;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .boton {
+        width: 150px;
+        align-items: center;
     }
 
     .footer-icontop img {
