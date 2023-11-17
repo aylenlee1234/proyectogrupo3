@@ -464,7 +464,11 @@ section {
     border-radius: 2rem;
     margin-top: 150px;
     text-align: center;
+    margin-left: 367px;
     border: 0.4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    gap: 20px;
 }
 
 .boton {
@@ -618,6 +622,10 @@ section {
         flex-direction: column;
         margin-left: 70px;
         margin-right: 70px;
+    }
+
+    .sitio-box {
+        margin-left: 0px;
     }
 
     .boton {
